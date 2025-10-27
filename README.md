@@ -165,7 +165,5 @@ These findings support—though do not prove—the possibility that the universe
 1. Bekenstein, J. D. (1973). *Black holes and entropy*. Physical Review D, 7(8).  
 2. Tishby, N., & Zaslavsky, N. (2015). *Information bottleneck theory of deep learning*.  
 3. Lin, H. W., Tegmark, M., & Rolnick, D. (2017). *Why does deep learning work?* Journal of Statistical Physics.  
-4. Verlinde, E. (2011). *On the origin of gravity and the laws of Newton*. JHEP.  
-5. Hourmand, A. (2025). *Quantum Transformer Reality: Testing Physics as Learned Architecture*. Monarktek Research.
-
+4. Verlinde, E. (2011). *On the origin of gravity and the laws of Newton*. JHEP.
 ---
