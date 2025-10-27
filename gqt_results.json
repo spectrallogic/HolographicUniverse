@@ -1,0 +1,56 @@
+{
+  "results": {
+    "softmax_boltzmann": {
+      "T_true": 0.73,
+      "T_fit": 0.7272727272727273,
+      "KL": 0.040523463893928975,
+      "corr_E_dL": 0.9722597352364981,
+      "score": 0.9862930290053664,
+      "note": "Softmax over -delta_bits approximates Boltzmann over E if a transformer-like sampler underlies thermal stats."
+    },
+    "interference": {
+      "V_coherent": 0.8034562402285258,
+      "V_decohered": 0.8036448164276091,
+      "deltaV": -0.00018857619908330125,
+      "score": 0.0,
+      "note": "Decoherence should reduce fringe visibility if phase coherence is physical."
+    },
+    "causality": {
+      "radius_tplus1": 0,
+      "c_mask": 2,
+      "score": 1.0,
+      "note": "Local-softmax attention enforces finite-speed influence per step (light-cone)."
+    },
+    "area_law": {
+      "slope_log": 1.0126837115545363e-13,
+      "score": 0.6000000000002026,
+      "note": "Sublinear S(block) growth is consistent with locality/low-rank mixing (area-law-like)."
+    },
+    "spectral_bias": {
+      "alpha": 6.127688937438915,
+      "score": 0.0,
+      "note": "1/f^alpha with alpha near 1 indicates trained-generator style spectral bias."
+    },
+    "ecc_projection": {
+      "syndrome_before": 0.17561446554570326,
+      "syndrome_after": 0.10233417698641219,
+      "score": 0.417279341603,
+      "note": "Projection onto a smooth-phase constraint manifold reduces a stabilizer-like syndrome."
+    },
+    "rarity_vs_bits": {
+      "slope_semilog": -1.9655169505435572,
+      "score": 0.03448304945644276,
+      "note": "Exponential rarity with cost supports a compression-driven generator."
+    }
+  },
+  "weights": {
+    "softmax_boltzmann": 1.0,
+    "interference": 2.0,
+    "causality": 2.0,
+    "area_law": 1.0,
+    "spectral_bias": 1.0,
+    "ecc_projection": 1.5,
+    "rarity_vs_bits": 1.0
+  },
+  "simulation_index": 44.702053588068544
+}
